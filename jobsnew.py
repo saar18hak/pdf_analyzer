@@ -27,7 +27,7 @@ st.set_page_config(page_title="AI Resume Analyzer", page_icon="📄", layout="wi
 pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
 POPPLER_PATH = r"C:\poppler\poppler-25.12.0\Library\bin"
 
-os.environ["GROQ_API_KEY"] = "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"
+GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 
 # ---------------------------
 # LLM
